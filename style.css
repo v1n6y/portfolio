@@ -1,0 +1,171 @@
+.navbar-brand {
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: rgb(248, 142, 142);
+    transition: 0.5s ease-in-out 0s;
+}
+
+.navbar-brand:hover{
+    color: rgb(33, 255, 251);
+    letter-spacing: 5px;
+    margin: auto 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.collapse ul {
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+}
+
+.collapse ul li {
+    display: table-cell;
+    position: relative;
+    padding: 5px 0;
+}
+
+.collapse ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+}
+
+.collapse ul li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.collapse ul li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.collapse ul li a:hover {
+    color: greenyellow;
+}
+
+@media screen and (max-height: 300px) {
+    .collapse ul {
+        margin-top: 40px;
+    }
+}
+
+/* background image */
+.bgimage {
+    height: 100vh;
+    background: url('https://cdn.wallpapersafari.com/12/40/120mvB.jpg');
+    /* background: url('https://images.ctfassets.net/zkw0qlnf0vqv/psycom_page_fid40912_asset_40831/96de4a1f0c8e2002be296cae00155df2/Man_looking_in_from_the_window'); */
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image*/
+.blockquote h2 span {
+    font-size: 3.5rem;
+}
+
+.blockquote-footer {
+    font-size: 1.2rem;
+    width: 50%;
+    margin: auto;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(2, 142, 142);
+}
+
+#footer {
+    background-color: #7f7777;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #f00;
+}
+
+/* Icon styling */
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
